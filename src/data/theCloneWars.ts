@@ -46,6 +46,172 @@ const attackOfTheClonesChapterList: Chapter[] = [
   { altName: `Secret Union`, chapter: 18 },
 ];
 
+const cloneWarsFilmChapterList: Chapter[] = [
+  { altName: 'Battle on Christophsis', chapter: 0 },
+  { altName: `Anakin's New Apprentice`, chapter: 1 },
+  { altName: `The Rescue Plan`, chapter: 2 },
+  { altName: `Obi-Wan's Assurances`, chapter: 3 },
+  { altName: `An Elaborate Trap`, chapter: 4 },
+  { altName: 'Obi-Wan Arrives', chapter: 5 },
+  { altName: `Padme's Revelations`, chapter: 6 },
+  { altName: `Across Tatooine`, chapter: 7 },
+  { altName: `Crisis Averted`, chapter: 8 },
+];
+
+const cloneWarsS1EpisodeList: Chapter[] = [
+  { altName: ``, chapter: 1 },
+  { altName: ``, chapter: 2 },
+  { altName: ``, chapter: 3 },
+  { altName: ``, chapter: 4 },
+  { altName: ``, chapter: 5 },
+  { altName: ``, chapter: 6 },
+  { altName: ``, chapter: 7 },
+  { altName: ``, chapter: 8 },
+  { altName: ``, chapter: 9 },
+  { altName: ``, chapter: 10 },
+  { altName: ``, chapter: 11 },
+  { altName: ``, chapter: 12 },
+  { altName: ``, chapter: 13 },
+  { altName: ``, chapter: 14 },
+  { altName: ``, chapter: 15 },
+  { altName: ``, chapter: 16 },
+  { altName: ``, chapter: 17 },
+  { altName: ``, chapter: 18 },
+  { altName: ``, chapter: 19 },
+  { altName: ``, chapter: 20 },
+  { altName: ``, chapter: 21 },
+  { altName: ``, chapter: 22 },
+];
+
+const cloneWarsS2EpisodeList: Chapter[] = [
+  { altName: ``, chapter: 1 },
+  { altName: ``, chapter: 2 },
+  { altName: ``, chapter: 3 },
+  { altName: ``, chapter: 4 },
+  { altName: ``, chapter: 5 },
+  { altName: ``, chapter: 6 },
+  { altName: ``, chapter: 7 },
+  { altName: ``, chapter: 8 },
+  { altName: ``, chapter: 9 },
+  { altName: ``, chapter: 10 },
+  { altName: ``, chapter: 11 },
+  { altName: ``, chapter: 12 },
+  { altName: ``, chapter: 13 },
+  { altName: ``, chapter: 14 },
+  { altName: ``, chapter: 15 },
+  { altName: ``, chapter: 16 },
+  { altName: ``, chapter: 17 },
+  { altName: ``, chapter: 18 },
+  { altName: ``, chapter: 19 },
+  { altName: ``, chapter: 20 },
+  { altName: ``, chapter: 21 },
+  { altName: ``, chapter: 22 },
+];
+
+const cloneWarsS3EpisodeList: Chapter[] = [
+  { altName: ``, chapter: 1 },
+  { altName: ``, chapter: 2 },
+  { altName: ``, chapter: 3 },
+  { altName: ``, chapter: 4 },
+  { altName: ``, chapter: 5 },
+  { altName: ``, chapter: 6 },
+  { altName: ``, chapter: 7 },
+  { altName: ``, chapter: 8 },
+  { altName: ``, chapter: 9 },
+  { altName: ``, chapter: 10 },
+  { altName: ``, chapter: 11 },
+  { altName: ``, chapter: 12 },
+  { altName: ``, chapter: 13 },
+  { altName: ``, chapter: 14 },
+  { altName: ``, chapter: 15 },
+  { altName: ``, chapter: 16 },
+  { altName: ``, chapter: 17 },
+  { altName: ``, chapter: 18 },
+  { altName: ``, chapter: 19 },
+  { altName: ``, chapter: 20 },
+  { altName: ``, chapter: 21 },
+  { altName: ``, chapter: 22 },
+];
+
+const cloneWarsS4EpisodeList: Chapter[] = [
+  { altName: ``, chapter: 1 },
+  { altName: ``, chapter: 2 },
+  { altName: ``, chapter: 3 },
+  { altName: ``, chapter: 4 },
+  { altName: ``, chapter: 5 },
+  { altName: ``, chapter: 6 },
+  { altName: ``, chapter: 7 },
+  { altName: ``, chapter: 8 },
+  { altName: ``, chapter: 9 },
+  { altName: ``, chapter: 10 },
+  { altName: ``, chapter: 11 },
+  { altName: ``, chapter: 12 },
+  { altName: ``, chapter: 13 },
+  { altName: ``, chapter: 14 },
+  { altName: ``, chapter: 15 },
+  { altName: ``, chapter: 16 },
+  { altName: ``, chapter: 17 },
+  { altName: ``, chapter: 18 },
+  { altName: ``, chapter: 19 },
+  { altName: ``, chapter: 20 },
+  { altName: ``, chapter: 21 },
+  { altName: ``, chapter: 22 },
+];
+
+const cloneWarsS5EpisodeList: Chapter[] = [
+  { altName: ``, chapter: 1 },
+  { altName: ``, chapter: 2 },
+  { altName: ``, chapter: 3 },
+  { altName: ``, chapter: 4 },
+  { altName: ``, chapter: 5 },
+  { altName: ``, chapter: 6 },
+  { altName: ``, chapter: 7 },
+  { altName: ``, chapter: 8 },
+  { altName: ``, chapter: 9 },
+  { altName: ``, chapter: 10 },
+  { altName: ``, chapter: 11 },
+  { altName: ``, chapter: 12 },
+  { altName: ``, chapter: 13 },
+  { altName: ``, chapter: 14 },
+  { altName: ``, chapter: 15 },
+  { altName: ``, chapter: 16 },
+  { altName: ``, chapter: 17 },
+  { altName: ``, chapter: 18 },
+  { altName: ``, chapter: 19 },
+  { altName: ``, chapter: 20 },
+];
+
+const cloneWarsS6EpisodeList: Chapter[] = [
+  { altName: ``, chapter: 1 },
+  { altName: ``, chapter: 2 },
+  { altName: ``, chapter: 3 },
+  { altName: ``, chapter: 4 },
+  { altName: ``, chapter: 5 },
+  { altName: ``, chapter: 6 },
+  { altName: ``, chapter: 7 },
+  { altName: ``, chapter: 8 },
+  { altName: ``, chapter: 9 },
+  { altName: ``, chapter: 10 },
+  { altName: ``, chapter: 11 },
+  { altName: ``, chapter: 12 },
+  { altName: ``, chapter: 13 },
+];
+
+const cloneWarsS7EpisodeList: Chapter[] = [
+  { altName: ``, chapter: 1 },
+  { altName: ``, chapter: 2 },
+  { altName: ``, chapter: 3 },
+  { altName: ``, chapter: 4 },
+  { altName: ``, chapter: 5 },
+  { altName: ``, chapter: 6 },
+  { altName: ``, chapter: 7 },
+  { altName: ``, chapter: 8 },
+  { altName: ``, chapter: 9 },
+  { altName: ``, chapter: 10 },
+  { altName: ``, chapter: 11 },
+  { altName: ``, chapter: 12 }
+];
+
 const revengeOfTheSithChapterList: Chapter[] = [
   { altName: 'Battle Over Coruscant', chapter: 0 },
   { altName: 'Rescuing the Chancellor', chapter: 1 },
@@ -123,6 +289,54 @@ export const installments: Installment[] = [
     chapters: attackOfTheClonesChapterList
   },
   {
+    title: 'The Clone Wars (Film)',
+    type: MediaType.Book,
+    image: 'https://static.wikia.nocookie.net/starwars/images/d/dd/Attack-Clones-Poster.jpg',
+    chapters: cloneWarsFilmChapterList
+  },
+  {
+    title: 'The Clone Wars (Season 1)',
+    type: MediaType.Television,
+    image: 'https://static.wikia.nocookie.net/starwars/images/d/dd/Attack-Clones-Poster.jpg',
+    chapters: cloneWarsS1EpisodeList
+  },
+  {
+    title: 'The Clone Wars (Season 2)',
+    type: MediaType.Television,
+    image: 'https://static.wikia.nocookie.net/starwars/images/d/dd/Attack-Clones-Poster.jpg',
+    chapters: cloneWarsS2EpisodeList
+  },
+  {
+    title: 'The Clone Wars (Season 3)',
+    type: MediaType.Television,
+    image: 'https://static.wikia.nocookie.net/starwars/images/d/dd/Attack-Clones-Poster.jpg',
+    chapters: cloneWarsS3EpisodeList
+  },
+  {
+    title: 'The Clone Wars (Season 4)',
+    type: MediaType.Television,
+    image: 'https://static.wikia.nocookie.net/starwars/images/d/dd/Attack-Clones-Poster.jpg',
+    chapters: cloneWarsS4EpisodeList
+  },
+  {
+    title: 'The Clone Wars (Season 5)',
+    type: MediaType.Television,
+    image: 'https://static.wikia.nocookie.net/starwars/images/d/dd/Attack-Clones-Poster.jpg',
+    chapters: cloneWarsS5EpisodeList
+  },
+  {
+    title: 'The Clone Wars (Season 6)',
+    type: MediaType.Television,
+    image: 'https://static.wikia.nocookie.net/starwars/images/d/dd/Attack-Clones-Poster.jpg',
+    chapters: cloneWarsS6EpisodeList
+  },
+  {
+    title: 'The Clone Wars (Season 7)',
+    type: MediaType.Television,
+    image: 'https://static.wikia.nocookie.net/starwars/images/d/dd/Attack-Clones-Poster.jpg',
+    chapters: cloneWarsS7EpisodeList
+  },
+  {
     title: 'Episode III: Revenge of the Sith',
     type: MediaType.Book,
     image: 'https://static.wikia.nocookie.net/starwars/images/e/e7/EPIII_RotS_poster.png',
@@ -133,7 +347,7 @@ export const installments: Installment[] = [
 export const seriesData: Series = {
   title: 'The Clone Wars',
   stub: 'theclonewars',
-  image: 'https://static.wikia.nocookie.net/starwars/images/e/e7/EPIII_RotS_poster.png',
+  image: 'https://static.wikia.nocookie.net/starwars/images/1/13/SW_prequel_poster.jpg',
   timeframe: '32 BBY - 19 BBY',
   description: `The Clone Wars was a galaxy-spanning conflict between the Galactic Republic and the Confederacy of Independent Systems, which had seceded from the Republic. Unbeknownst to many, these wars were planned decades prior in a Sith plot to destroy the Jedi order.`,
   color: 'rgb(139,53,29)',
