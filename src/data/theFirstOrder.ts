@@ -158,8 +158,8 @@ export const seriesData: Series = {
   title: 'The First Order',
   stub: 'thefirstorder',
   image: 'https://static.wikia.nocookie.net/starwars/images/e/e4/Rise_of_Skywalker_promo.jpg',
-  timeframe: '0 BBY - 4 ABY',
-  description: `The Clone Wars was a galaxy-spanning conflict between the Galactic Republic and the Confederacy of Independent Systems, which had seceded from the Republic. Unbeknownst to many, these wars were planned decades prior in a Sith plot to destroy the Jedi order.`,
+  timeframe: '34 ABY - 35 ABY',
+  description: `The First Order-Resistance War was a one-year-long galactic war between the First Order and the Resistance; a pro-democracy paramilitary faction created by senator Leia Skywalker Organa Solo, that erupted following the First Order's annihilation of the New Republic Senate and Defense Fleet.`,
   color: 'rgb(139,53,29)',
   backgroundColor: 'rgb(41,41,43)',
   installments: installments,
@@ -184,6 +184,30 @@ export const THE_CLONE_WARS_DATA: DataBundle = {
     //   wikiLink: 'https://starwars.fandom.com/wiki/Tatooine',
     //   confirmed: true
     // },
+
+    // Jakku
+    // Takodana
+    // Hosnian Prime
+    // D'Qar
+    // Starkiller Base
+    // Ahch-To
+    // Canto Bight
+    // Crait
+
+    // Mustafar
+    // Crimson Nebula
+    // Exegol
+    // Sinta Glacier
+    // Typhonic Nebula
+    // Ivexia
+    // Cardovyte
+    // Ajan Kloss
+    // Pasaana
+    // Kijimi
+    // Kef Bir
+    // Bespin
+    // Endor
+    // Tatooine
   ],
   paths: [
     // {

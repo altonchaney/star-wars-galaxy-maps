@@ -112,6 +112,12 @@ enum CharacterIndex {
   'Vader' = 5
 }
 
+enum InstallmentIndex {
+  'aNewHope' = 0,
+  'empireStrikesBack' = 1,
+  'returnOfTheJedi' = 2,
+}
+
 export const installments: Installment[] = [
   {
     title: 'Episode IV: A New Hope',
@@ -138,7 +144,7 @@ export const seriesData: Series = {
   stub: 'therebellion',
   image: 'https://static.wikia.nocookie.net/starwars/images/c/c8/SW_franchise_mural_OT.jpg',
   timeframe: '0 BBY - 4 ABY',
-  description: `The Clone Wars was a galaxy-spanning conflict between the Galactic Republic and the Confederacy of Independent Systems, which had seceded from the Republic. Unbeknownst to many, these wars were planned decades prior in a Sith plot to destroy the Jedi order.`,
+  description: `The Galactic Civil War, also referred to as the revolution or the rebellion, was a galactic power struggle in which the Alliance to Restore the Republic waged a rebellion against the ruling Galactic Empire in an attempt to restore democratic rule to the galaxy.`,
   color: 'rgb(139,53,29)',
   backgroundColor: 'rgb(41,41,43)',
   installments: installments,
@@ -155,7 +161,7 @@ export const THE_CLONE_WARS_DATA: DataBundle = {
       type: 'planet',
       image: 'https://static.wikia.nocookie.net/starwars/images/9/91/Jawa_moisture_farm_ANH.jpg',
       appearances: {
-        1: [
+        [InstallmentIndex.aNewHope + 1]: [
           5, 6, 7
         ].map(i => (aNewHopeChapterList[i])),
       },
@@ -163,6 +169,29 @@ export const THE_CLONE_WARS_DATA: DataBundle = {
       wikiLink: 'https://starwars.fandom.com/wiki/Tatooine',
       confirmed: true
     },
+    {
+      title: 'Alderaan',
+      coordinates: [1950, 2015],
+      type: 'planet',
+      image: 'https://static.wikia.nocookie.net/starwars/images/a/a0/Alderaan_mountains.png',
+      appearances: {
+        [InstallmentIndex.aNewHope + 1]: [
+          5, 6, 7, 8
+        ].map(i => (aNewHopeChapterList[i])),
+      },
+      description: `Alderaan, located in the Core Worlds, was a terrestrial planet covered with mountains. During the waning decades of the Galactic Republic, it was ruled by Queen Breha Organa and represented in the Galactic Senate by her husband, Senator Bail Prestor Organa. Alderaan was regarded for its natural beauty, its tranquility, and the sophistication of its arts and culture.`,
+      wikiLink: 'https://starwars.fandom.com/wiki/Alderaan',
+      confirmed: true
+    },
+    // Yavin
+    // Hoth
+    // Hoth Asteroid Field
+    // Dagobah
+    // Bespin
+    // Rebel Redevouz
+    // Endor
+    // Naboo
+    // Coruscant
   ],
   paths: [
     // {

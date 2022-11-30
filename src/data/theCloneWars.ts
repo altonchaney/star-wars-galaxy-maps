@@ -275,6 +275,20 @@ enum CharacterIndex {
   'Ahsoka' = 4
 }
 
+enum InstallmentIndex {
+  'thePhantomMenace' = 0,
+  'attackOfTheClones' = 1,
+  'cloneWarsFilm' = 2,
+  'cloneWarsS1' = 3,
+  'cloneWarsS2' = 4,
+  'cloneWarsS3' = 5,
+  'cloneWarsS4' = 6,
+  'cloneWarsS5' = 7,
+  'cloneWarsS6' = 8,
+  'cloneWarsS7' = 9,
+  'revengeOfTheSith' = 10,
+}
+
 export const installments: Installment[] = [
   {
     title: 'Episode I: The Phantom Menace',
@@ -366,12 +380,15 @@ export const THE_CLONE_WARS_DATA: DataBundle = {
       type: 'planet',
       image: 'https://static.wikia.nocookie.net/starwars/images/a/a1/Naboo2.jpg',
       appearances: {
-        1: [
+        [InstallmentIndex.thePhantomMenace + 1]: [
           0, 1, 2, 3, 4, 10, 11, 12
         ].map(i => (thePhantomMenaceChapterList[i])),
-        2: [
+        [InstallmentIndex.attackOfTheClones + 1]: [
           5, 7, 18
         ].map(i => (attackOfTheClonesChapterList[i])),
+        [InstallmentIndex.revengeOfTheSith + 1]: [
+          18
+        ].map(i => (revengeOfTheSithChapterList[i])),
       },
       description: `Naboo was a bountiful planet in the Chommell sector of the Mid Rim, in the Trailing Sectors and close to the border of the Outer Rim Territories. It was home to the indigenous Gungan species and to a population of humans known as the Naboo.`,
       wikiLink: 'https://starwars.fandom.com/wiki/Naboo',
@@ -383,12 +400,15 @@ export const THE_CLONE_WARS_DATA: DataBundle = {
       type: 'planet',
       image: 'https://static.wikia.nocookie.net/starwars/images/9/91/Jawa_moisture_farm_ANH.jpg',
       appearances: {
-        1: [
+        [InstallmentIndex.thePhantomMenace + 1]: [
           5, 6, 7
         ].map(i => (thePhantomMenaceChapterList[i])),
-        2: [
+        [InstallmentIndex.attackOfTheClones + 1]: [
           9, 11
         ].map(i => (attackOfTheClonesChapterList[i])),
+        [InstallmentIndex.revengeOfTheSith + 1]: [
+          18
+        ].map(i => (revengeOfTheSithChapterList[i])),
       },
       description: `Tatooine was a sparsely inhabited circumbinary desert planet located in the galaxy's Outer Rim Territories. Part of a binary star system, the planet orbited two scorching suns, resulting in the world lacking the necessary surface water to sustain large populations.`,
       wikiLink: 'https://starwars.fandom.com/wiki/Tatooine',
@@ -400,12 +420,15 @@ export const THE_CLONE_WARS_DATA: DataBundle = {
       type: 'planet',
       image: 'https://static.wikia.nocookie.net/starwars/images/6/66/Coruscant_landscape_RotS.png',
       appearances: {
-        1: [
+        [InstallmentIndex.thePhantomMenace + 1]: [
           8, 9
         ].map(i => (thePhantomMenaceChapterList[i])),
-        2: [
+        [InstallmentIndex.attackOfTheClones + 1]: [
           0, 1, 2, 4, 16, 17
         ].map(i => (attackOfTheClonesChapterList[i])),
+        [InstallmentIndex.revengeOfTheSith + 1]: [
+          0, 1, 3, 4, 7, 9, 10, 11, 13, 14, 17
+        ].map(i => (revengeOfTheSithChapterList[i])),
       },
       description: `Coruscant, also known as Imperial Center during the rule of the Galactic Empire, was an ecumenopolis—a city-covered planet, collectively known as Imperial City— in the Coruscant system of the Core Worlds. Though debated by historians, it was generally believed that Coruscant was the original homeworld of humanity. `,
       wikiLink: 'https://starwars.fandom.com/wiki/Coruscant',
@@ -417,7 +440,7 @@ export const THE_CLONE_WARS_DATA: DataBundle = {
       type: 'planet',
       image: 'https://static.wikia.nocookie.net/starwars/images/2/2c/TipocaCity-CC.png',
       appearances: {
-        2: [
+        [InstallmentIndex.attackOfTheClones + 1]: [
           6, 8
         ].map(i => (attackOfTheClonesChapterList[i])),
       },
@@ -431,7 +454,7 @@ export const THE_CLONE_WARS_DATA: DataBundle = {
       type: 'planet',
       image: 'https://static.wikia.nocookie.net/starwars/images/5/59/Geonosis.jpg',
       appearances: {
-        2: [
+        [InstallmentIndex.attackOfTheClones + 1]: [
           10, 12, 13, 14, 15
         ].map(i => (attackOfTheClonesChapterList[i])),
       },
@@ -439,61 +462,197 @@ export const THE_CLONE_WARS_DATA: DataBundle = {
       wikiLink: 'https://starwars.fandom.com/wiki/Geonosis',
       confirmed: true
     },
+    {
+      title: 'Utapau',
+      coordinates: [353, 2134],
+      type: 'planet',
+      image: 'https://static.wikia.nocookie.net/starwars/images/2/26/Utapau_surface.png',
+      appearances: {
+        [InstallmentIndex.revengeOfTheSith + 1]: [
+          2, 6, 8, 10
+        ].map(i => (revengeOfTheSithChapterList[i])),
+      },
+      description: `Utapau was a remote and rocky planet in the Outer Rim Territories' Utapau system that was covered with enormous sinkholes. Its native inhabitants were the Pau'ans and the Utai, though tribes of Amani also immigrated to the world.`,
+      wikiLink: 'https://starwars.fandom.com/wiki/Utapau',
+      confirmed: true
+    },
+    {
+      title: 'Mustafar',
+      coordinates: [353, 1827],
+      type: 'planet',
+      image: 'https://static.wikia.nocookie.net/starwars/images/4/4b/Lava-fleas-walking.png',
+      appearances: {
+        [InstallmentIndex.revengeOfTheSith + 1]: [
+          12, 15
+        ].map(i => (revengeOfTheSithChapterList[i])),
+      },
+      description: `Mustafar was a small planet located in the Mustafar system, within the Atravis sector of the galaxy's Outer Rim Territories. Once a garden world nourished by the Bright Star artifact, its orbit was shifted when Lady Corvax unleashed the energies of the Bright Star in an attempt to return her husband to life. The resulting gravimetric duel between the gas giants Jestefad and Lefrani over Mustafar heated the planet's core, transforming the lush world into an imbalanced volcanic hellscape.`,
+      wikiLink: 'https://starwars.fandom.com/wiki/Mustafar',
+      confirmed: true
+    },
+    {
+      title: 'Alderaan',
+      coordinates: [1950, 2015],
+      type: 'planet',
+      image: 'https://static.wikia.nocookie.net/starwars/images/a/a0/Alderaan_mountains.png',
+      appearances: {
+        [InstallmentIndex.revengeOfTheSith + 1]: [
+          18
+        ].map(i => (revengeOfTheSithChapterList[i])),
+      },
+      description: `Alderaan, located in the Core Worlds, was a terrestrial planet covered with mountains. During the waning decades of the Galactic Republic, it was ruled by Queen Breha Organa and represented in the Galactic Senate by her husband, Senator Bail Prestor Organa. Alderaan was regarded for its natural beauty, its tranquility, and the sophistication of its arts and culture.`,
+      wikiLink: 'https://starwars.fandom.com/wiki/Alderaan',
+      confirmed: true
+    },
+    {
+      title: 'Cato Neimoidia',
+      coordinates: [1745, 2150],
+      type: 'planet',
+      image: 'https://static.wikia.nocookie.net/starwars/images/9/98/CNCityBridges-SS.png',
+      appearances: {
+        [InstallmentIndex.revengeOfTheSith + 1]: [
+          10
+        ].map(i => (revengeOfTheSithChapterList[i])),
+      },
+      description: `Cato Neimoidia was a planet in the Cato Neimoidia system, within the Quellor sector of the galaxy's Colonies region. It was a wealthy colony world of the Neimoidians and the base of operations for the Trade Federation. Much of the world was covered in a persistent fog, while the bridge cities of Cato Neimoidia were suspended above the planet's acidic ocean surface on bridges anchored on massive giant rock arches, upon which thrived forests and grasslands.`,
+      wikiLink: 'https://starwars.fandom.com/wiki/Cato_Neimoidia',
+      confirmed: true
+    },
+    {
+      title: 'Kashyyyk',
+      coordinates: [1981, 2573],
+      type: 'planet',
+      image: 'https://static.wikia.nocookie.net/starwars/images/e/e8/Can-cell_kashyyyk.png',
+      appearances: {
+        [InstallmentIndex.revengeOfTheSith + 1]: [
+          5, 7, 10
+        ].map(i => (revengeOfTheSithChapterList[i])),
+      },
+      description: `Kashyyyk, also known as Planet Wookiee C to some humans in the Core Worlds, was a wroshyr tree-covered forest planet located in the southwestern quadrant of the galaxy and the homeworld of the Wookiee species.`,
+      wikiLink: 'https://starwars.fandom.com/wiki/Kashyyyk',
+      confirmed: true
+    },
+    {
+      title: 'Mygeeto',
+      coordinates: [2765, 1713],
+      type: 'planet',
+      image: 'https://static.wikia.nocookie.net/starwars/images/7/7a/Mygeetobridgebattle.png',
+      appearances: {
+        [InstallmentIndex.revengeOfTheSith + 1]: [
+          10
+        ].map(i => (revengeOfTheSithChapterList[i])),
+      },
+      description: `Mygeeto was a frigid, crystalline planet located in the Albarrio sector's Mygeeto system of the Outer Rim Territories, and was the homeworld of the Lurmen species. The planet was initially discovered almost 7,000 years before the Battle of Yavin, and possession of the planet became heavily contested after its discovery.`,
+      wikiLink: 'https://starwars.fandom.com/wiki/Mygeeto',
+      confirmed: true
+    },
+    {
+      title: 'Polis Massa',
+      coordinates: [218, 1750],
+      type: 'point of interest',
+      image: 'https://static.wikia.nocookie.net/starwars/images/a/a6/Polis_massa.png',
+      appearances: {
+        [InstallmentIndex.revengeOfTheSith + 1]: [
+          16
+        ].map(i => (revengeOfTheSithChapterList[i])),
+      },
+      description: `Polis Massa was an asteroid field located in the Subterrel sector of the galaxy's Outer Rim Territories, far from any major hyperspace lanes. At some point, Polis Massa was a planet located within the system of the same name. The planet was home to a subterranean people called the Eellayin until it was destroyed by ancient superweapons.`,
+      wikiLink: 'https://starwars.fandom.com/wiki/Polis_Massa',
+      confirmed: true
+    },
+    {
+      title: 'Saleucami',
+      coordinates: [2234, 2994],
+      type: 'planet',
+      image: 'https://static.wikia.nocookie.net/starwars/images/a/a5/Saleiucami_landscape.png',
+      appearances: {
+        [InstallmentIndex.revengeOfTheSith + 1]: [
+          10
+        ].map(i => (revengeOfTheSithChapterList[i])),
+      },
+      description: `Saleucami, a name that translated into "oasis," was a planet located in the Saleucami system, within the Suolriep sector of the galaxy's Outer Rim Territories. During the Clone Wars, its inhabitants wished to stay out of the conflict, though war would eventually reach the backwater planet. Although Republic forces were able to drive the Separatists from Saleucami, it became the site of an invasion and one of the final battles of the war.`,
+      wikiLink: 'https://starwars.fandom.com/wiki/Saleucami',
+      confirmed: true
+    },
+    {
+      title: 'Felucia',
+      coordinates: [2581, 2909],
+      type: 'planet',
+      image: 'https://static.wikia.nocookie.net/starwars/images/2/27/Felucia-wide.png',
+      appearances: {
+        [InstallmentIndex.revengeOfTheSith + 1]: [
+          10
+        ].map(i => (revengeOfTheSithChapterList[i])),
+      },
+      description: `Felucia, known as Galush prior to the formation of the Galactic Republic, was a colorful, humid jungle planet located in the Felucia system of the galaxy's Outer Rim Territories. The headquarters of the Commerce Guild, its primary agricultural export was the valuable crop nysillin, which was largely farmed by the native Felucian tribes. Its important strategic location along the Perlemian Trade Route made it a major battleground throughout the Clone Wars.`,
+      wikiLink: 'https://starwars.fandom.com/wiki/Felucia',
+      confirmed: true
+    },
   ],
   paths: [
     {
       character: characters[CharacterIndex.ObiWan],
-      installment: installments[0],
-      chapter: thePhantomMenaceChapterList[5],
-      confirmed: true,
+      installment: installments[InstallmentIndex.thePhantomMenace],
+      chapter: thePhantomMenaceChapterList[0],
+      confirmed: false,
       coordinates: [
-        [807, 2346],
-        [858, 2834],
-      ],
-    },
-    {
-      character: characters[CharacterIndex.Padme],
-      installment: installments[0],
-      chapter: thePhantomMenaceChapterList[5],
-      confirmed: true,
-      coordinates: [
-        [807, 2346],
-        [858, 2834],
-      ],
-    },
-    {
-      character: characters[CharacterIndex.Anakin],
-      installment: installments[0],
-      chapter: thePhantomMenaceChapterList[8],
-      confirmed: true,
-      coordinates: [
-        [858, 2834],
         [1964, 1798],
+        [807, 2346]
       ],
     },
     {
       character: characters[CharacterIndex.ObiWan],
-      installment: installments[0],
-      chapter: thePhantomMenaceChapterList[8],
+      installment: installments[InstallmentIndex.thePhantomMenace],
+      chapter: thePhantomMenaceChapterList[5],
       confirmed: true,
       coordinates: [
-        [858, 2834],
-        [1964, 1798],
+        [807, 2346],
+        [858, 2834]
       ],
     },
     {
       character: characters[CharacterIndex.Padme],
-      installment: installments[0],
-      chapter: thePhantomMenaceChapterList[8],
+      installment: installments[InstallmentIndex.thePhantomMenace],
+      chapter: thePhantomMenaceChapterList[5],
       confirmed: true,
       coordinates: [
-        [858, 2834],
-        [1964, 1798],
+        [807, 2346],
+        [858, 2834]
       ],
     },
     {
       character: characters[CharacterIndex.Anakin],
-      installment: installments[0],
+      installment: installments[InstallmentIndex.thePhantomMenace],
+      chapter: thePhantomMenaceChapterList[8],
+      confirmed: true,
+      coordinates: [
+        [858, 2834],
+        [1964, 1798]
+      ],
+    },
+    {
+      character: characters[CharacterIndex.ObiWan],
+      installment: installments[InstallmentIndex.thePhantomMenace],
+      chapter: thePhantomMenaceChapterList[8],
+      confirmed: true,
+      coordinates: [
+        [858, 2834],
+        [1964, 1798]
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Padme],
+      installment: installments[InstallmentIndex.thePhantomMenace],
+      chapter: thePhantomMenaceChapterList[8],
+      confirmed: true,
+      coordinates: [
+        [858, 2834],
+        [1964, 1798]
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Anakin],
+      installment: installments[InstallmentIndex.thePhantomMenace],
       chapter: thePhantomMenaceChapterList[10],
       confirmed: true,
       coordinates: [
@@ -503,7 +662,7 @@ export const THE_CLONE_WARS_DATA: DataBundle = {
     },
     {
       character: characters[CharacterIndex.ObiWan],
-      installment: installments[0],
+      installment: installments[InstallmentIndex.thePhantomMenace],
       chapter: thePhantomMenaceChapterList[10],
       confirmed: true,
       coordinates: [
@@ -513,11 +672,174 @@ export const THE_CLONE_WARS_DATA: DataBundle = {
     },
     {
       character: characters[CharacterIndex.Padme],
-      installment: installments[0],
+      installment: installments[InstallmentIndex.thePhantomMenace],
       chapter: thePhantomMenaceChapterList[10],
       confirmed: true,
       coordinates: [
         [1964, 1798],
+        [807, 2346]
+      ],
+    },
+    // attack of the clones
+    {
+      character: characters[CharacterIndex.Padme],
+      installment: installments[InstallmentIndex.attackOfTheClones],
+      chapter: attackOfTheClonesChapterList[0],
+      confirmed: false,
+      coordinates: [
+        [807, 2346],
+        [1964, 1798]
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Anakin],
+      installment: installments[InstallmentIndex.attackOfTheClones],
+      chapter: attackOfTheClonesChapterList[3],
+      confirmed: true,
+      coordinates: [
+        [1964, 1798],
+        [1385.5, 2065.5]
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Padme],
+      installment: installments[InstallmentIndex.attackOfTheClones],
+      chapter: attackOfTheClonesChapterList[3],
+      confirmed: true,
+      coordinates: [
+        [1964, 1798],
+        [1385.5, 2065.5]
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Anakin],
+      installment: installments[InstallmentIndex.attackOfTheClones],
+      chapter: attackOfTheClonesChapterList[5],
+      confirmed: true,
+      coordinates: [
+        [1385.5, 2065.5],
+        [807, 2346]
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Padme],
+      installment: installments[InstallmentIndex.attackOfTheClones],
+      chapter: attackOfTheClonesChapterList[5],
+      confirmed: true,
+      coordinates: [
+        [1385.5, 2065.5],
+        [807, 2346]
+      ],
+    },
+    {
+      character: characters[CharacterIndex.ObiWan],
+      installment: installments[InstallmentIndex.attackOfTheClones],
+      chapter: attackOfTheClonesChapterList[6],
+      confirmed: true,
+      coordinates: [
+        [1964, 1798],
+        [1014, 3056],
+        // [842.5, 2821.5],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Anakin],
+      installment: installments[InstallmentIndex.attackOfTheClones],
+      chapter: attackOfTheClonesChapterList[9],
+      confirmed: true,
+      coordinates: [
+        [807, 2346],
+        [858, 2834]
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Padme],
+      installment: installments[InstallmentIndex.attackOfTheClones],
+      chapter: attackOfTheClonesChapterList[9],
+      confirmed: true,
+      coordinates: [
+        [807, 2346],
+        [858, 2834]
+      ],
+    },
+    {
+      character: characters[CharacterIndex.ObiWan],
+      installment: installments[InstallmentIndex.attackOfTheClones],
+      chapter: attackOfTheClonesChapterList[10],
+      confirmed: true,
+      coordinates: [
+        [1014, 3056],
+        [842.5, 2821.5],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Anakin],
+      installment: installments[InstallmentIndex.attackOfTheClones],
+      chapter: attackOfTheClonesChapterList[13],
+      confirmed: true,
+      coordinates: [
+        [858, 2834],
+        [842.5, 2821.5]
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Padme],
+      installment: installments[InstallmentIndex.attackOfTheClones],
+      chapter: attackOfTheClonesChapterList[13],
+      confirmed: true,
+      coordinates: [
+        [858, 2834],
+        [842.5, 2821.5]
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Yoda],
+      installment: installments[InstallmentIndex.attackOfTheClones],
+      chapter: attackOfTheClonesChapterList[14],
+      confirmed: false,
+      coordinates: [
+        [1964, 1798],
+        [1014, 3056],
+        [842.5, 2821.5],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.ObiWan],
+      installment: installments[InstallmentIndex.attackOfTheClones],
+      chapter: attackOfTheClonesChapterList[17],
+      confirmed: true,
+      coordinates: [
+        [842.5, 2821.5],
+        [1964, 1798]
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Yoda],
+      installment: installments[InstallmentIndex.attackOfTheClones],
+      chapter: attackOfTheClonesChapterList[17],
+      confirmed: true,
+      coordinates: [
+        [842.5, 2821.5],
+        [1964, 1798]
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Anakin],
+      installment: installments[InstallmentIndex.attackOfTheClones],
+      chapter: attackOfTheClonesChapterList[18],
+      confirmed: false,
+      coordinates: [
+        [842.5, 2821.5],
+        [807, 2346]
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Padme],
+      installment: installments[InstallmentIndex.attackOfTheClones],
+      chapter: attackOfTheClonesChapterList[18],
+      confirmed: false,
+      coordinates: [
+        [842.5, 2821.5],
         [807, 2346]
       ],
     },
