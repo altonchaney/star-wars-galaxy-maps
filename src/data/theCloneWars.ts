@@ -843,5 +843,136 @@ export const THE_CLONE_WARS_DATA: DataBundle = {
         [807, 2346]
       ],
     },
+    // revenge of the sith
+    {
+      character: characters[CharacterIndex.Yoda],
+      installment: installments[InstallmentIndex.revengeOfTheSith],
+      chapter: revengeOfTheSithChapterList[5],
+      confirmed: true,
+      coordinates: [
+        [1964, 1798],
+        [1981, 2573]
+      ],
+    },
+    {
+      character: characters[CharacterIndex.ObiWan],
+      installment: installments[InstallmentIndex.revengeOfTheSith],
+      chapter: revengeOfTheSithChapterList[6],
+      confirmed: true,
+      coordinates: [
+        [1964, 1798],
+        [353, 2134]
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Yoda],
+      installment: installments[InstallmentIndex.revengeOfTheSith],
+      chapter: revengeOfTheSithChapterList[11],
+      confirmed: false,
+      coordinates: [
+        [1981, 2573],
+        [1964, 1798],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.ObiWan],
+      installment: installments[InstallmentIndex.revengeOfTheSith],
+      chapter: revengeOfTheSithChapterList[11],
+      confirmed: false,
+      coordinates: [
+        [353, 2134],
+        [1964, 1798],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Anakin],
+      installment: installments[InstallmentIndex.revengeOfTheSith],
+      chapter: revengeOfTheSithChapterList[12],
+      confirmed: true,
+      coordinates: [
+        [1964, 1798],
+        [353, 1827]
+      ],
+    },
+    {
+      character: characters[CharacterIndex.ObiWan],
+      installment: installments[InstallmentIndex.revengeOfTheSith],
+      chapter: revengeOfTheSithChapterList[15],
+      confirmed: true,
+      coordinates: [
+        [1964, 1798],
+        [353, 1827]
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Padme],
+      installment: installments[InstallmentIndex.revengeOfTheSith],
+      chapter: revengeOfTheSithChapterList[15],
+      confirmed: true,
+      coordinates: [
+        [1964, 1798],
+        [353, 1827]
+      ],
+    },
+    {
+      character: characters[CharacterIndex.ObiWan],
+      installment: installments[InstallmentIndex.revengeOfTheSith],
+      chapter: revengeOfTheSithChapterList[16],
+      confirmed: true,
+      coordinates: [
+        [353, 1827],
+        [218, 1750]
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Padme],
+      installment: installments[InstallmentIndex.revengeOfTheSith],
+      chapter: revengeOfTheSithChapterList[16],
+      confirmed: true,
+      coordinates: [
+        [353, 1827],
+        [218, 1750]
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Yoda],
+      installment: installments[InstallmentIndex.revengeOfTheSith],
+      chapter: revengeOfTheSithChapterList[16],
+      confirmed: true,
+      coordinates: [
+        [1964, 1798],
+        [218, 1750]
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Anakin],
+      installment: installments[InstallmentIndex.revengeOfTheSith],
+      chapter: revengeOfTheSithChapterList[17],
+      confirmed: true,
+      coordinates: [
+        [353, 1827],
+        [1964, 1798],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.ObiWan],
+      installment: installments[InstallmentIndex.revengeOfTheSith],
+      chapter: revengeOfTheSithChapterList[18],
+      confirmed: true,
+      coordinates: [
+        [218, 1750],
+        [858, 2834]
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Padme],
+      installment: installments[InstallmentIndex.revengeOfTheSith],
+      chapter: revengeOfTheSithChapterList[18],
+      confirmed: false,
+      coordinates: [
+        [218, 1750],
+        [807, 2346]
+      ],
+    },
   ]
 };
