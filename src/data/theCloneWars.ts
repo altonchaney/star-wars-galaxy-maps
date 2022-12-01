@@ -305,49 +305,49 @@ export const installments: Installment[] = [
   {
     title: 'The Clone Wars (Film)',
     type: MediaType.Book,
-    image: 'https://static.wikia.nocookie.net/starwars/images/d/dd/Attack-Clones-Poster.jpg',
+    image: 'https://static.wikia.nocookie.net/starwars/images/f/ff/The_Clone_Wars_film_poster.jpg',
     chapters: cloneWarsFilmChapterList
   },
   {
     title: 'The Clone Wars (Season 1)',
     type: MediaType.Television,
-    image: 'https://static.wikia.nocookie.net/starwars/images/d/dd/Attack-Clones-Poster.jpg',
+    image: 'https://static.wikia.nocookie.net/starwars/images/a/ad/Tatooine_pickup_TCW.png',
     chapters: cloneWarsS1EpisodeList
   },
   {
     title: 'The Clone Wars (Season 2)',
     type: MediaType.Television,
-    image: 'https://static.wikia.nocookie.net/starwars/images/d/dd/Attack-Clones-Poster.jpg',
+    image: 'https://static.wikia.nocookie.net/starwars/images/8/82/Epguide222.jpg',
     chapters: cloneWarsS2EpisodeList
   },
   {
     title: 'The Clone Wars (Season 3)',
     type: MediaType.Television,
-    image: 'https://static.wikia.nocookie.net/starwars/images/d/dd/Attack-Clones-Poster.jpg',
+    image: 'https://static.wikia.nocookie.net/starwars/images/2/2a/Epguide316.jpg',
     chapters: cloneWarsS3EpisodeList
   },
   {
     title: 'The Clone Wars (Season 4)',
     type: MediaType.Television,
-    image: 'https://static.wikia.nocookie.net/starwars/images/d/dd/Attack-Clones-Poster.jpg',
+    image: 'https://static.wikia.nocookie.net/starwars/images/7/72/Epguide407.jpg',
     chapters: cloneWarsS4EpisodeList
   },
   {
     title: 'The Clone Wars (Season 5)',
     type: MediaType.Television,
-    image: 'https://static.wikia.nocookie.net/starwars/images/d/dd/Attack-Clones-Poster.jpg',
+    image: 'https://static.wikia.nocookie.net/starwars/images/2/20/Epguide501.jpg',
     chapters: cloneWarsS5EpisodeList
   },
   {
     title: 'The Clone Wars (Season 6)',
     type: MediaType.Television,
-    image: 'https://static.wikia.nocookie.net/starwars/images/d/dd/Attack-Clones-Poster.jpg',
+    image: 'https://static.wikia.nocookie.net/starwars/images/3/34/EpGuide601.png',
     chapters: cloneWarsS6EpisodeList
   },
   {
     title: 'The Clone Wars (Season 7)',
     type: MediaType.Television,
-    image: 'https://static.wikia.nocookie.net/starwars/images/d/dd/Attack-Clones-Poster.jpg',
+    image: 'https://static.wikia.nocookie.net/starwars/images/d/de/Star_Wars_The_Clone_Wars_Season_7_poster_2.jpg',
     chapters: cloneWarsS7EpisodeList
   },
   {
