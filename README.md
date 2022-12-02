@@ -58,10 +58,10 @@ If you run into any issues that you cannot resolve please open a GitHub issue an
 - [ ] The High Republic: The Fallen Star
 
 **The Clone Wars**
-- [ ] Episode I: The Phantom Menace
-- [ ] Episode II: Attack of the Clones
+- [x] Episode I: The Phantom Menace
+- [x] Episode II: Attack of the Clones
 - [ ] The Clone Wars
-- [ ] Episode III: Revenge of the Sith
+- [x] Episode III: Revenge of the Sith
 
 **Imperial Era**
 - [ ] The Bad Batch
@@ -73,9 +73,9 @@ If you run into any issues that you cannot resolve please open a GitHub issue an
 - [ ] Rogue One
 
 **The Rebellion**
-- [ ] Episode IV: A New Hope
-- [ ] Episode V: The Empire Strikes Back
-- [ ] Episode VI: Return of the Jedi
+- [x] Episode IV: A New Hope
+- [x] Episode V: The Empire Strikes Back
+- [x] Episode VI: Return of the Jedi
 
 **The New Republic**
 - [ ] Battlefront II
