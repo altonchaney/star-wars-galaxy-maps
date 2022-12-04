@@ -1089,6 +1089,403 @@ export const THE_FIRST_ORDER_DATA: DataBundle = {
         [750, 2292]
       ],
     },
+
+    {
+      character: characters[CharacterIndex.Kylo],
+      installment: installments[InstallmentIndex.theRiseOfSkywalker],
+      chapter: theRiseOfSkywalkerChapterList[1],
+      confirmed: true,
+      coordinates: [
+        [353, 1827],
+        [108, 1130],
+        [2318, 948],
+      ],
+    },
+
+    {
+      character: characters[CharacterIndex.Poe],
+      installment: installments[InstallmentIndex.theRiseOfSkywalker],
+      chapter: theRiseOfSkywalkerChapterList[2],
+      confirmed: true,
+      coordinates: [
+        [1412, 2620],
+        [1772, 2686],
+        [1702, 2662],
+        [2264, 2246],
+        [2604, 1844],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Finn],
+      installment: installments[InstallmentIndex.theRiseOfSkywalker],
+      chapter: theRiseOfSkywalkerChapterList[2],
+      confirmed: true,
+      coordinates: [
+        [1412, 2620],
+        [1772, 2686],
+        [1702, 2662],
+        [2264, 2246],
+        [2604, 1844],
+      ],
+    },
+
+    {
+      character: characters[CharacterIndex.Rey],
+      installment: installments[InstallmentIndex.theRiseOfSkywalker],
+      chapter: theRiseOfSkywalkerChapterList[6],
+      confirmed: true,
+      coordinates: [
+        [2604, 1844],
+        [1346, 2372],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Poe],
+      installment: installments[InstallmentIndex.theRiseOfSkywalker],
+      chapter: theRiseOfSkywalkerChapterList[6],
+      confirmed: true,
+      coordinates: [
+        [2604, 1844],
+        [1346, 2372],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Finn],
+      installment: installments[InstallmentIndex.theRiseOfSkywalker],
+      chapter: theRiseOfSkywalkerChapterList[6],
+      confirmed: true,
+      coordinates: [
+        [2604, 1844],
+        [1346, 2372],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.BB8],
+      installment: installments[InstallmentIndex.theRiseOfSkywalker],
+      chapter: theRiseOfSkywalkerChapterList[6],
+      confirmed: true,
+      coordinates: [
+        [2604, 1844],
+        [1346, 2372],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Kylo],
+      installment: installments[InstallmentIndex.theRiseOfSkywalker],
+      chapter: theRiseOfSkywalkerChapterList[9],
+      confirmed: false,
+      coordinates: [
+        [2318, 948],
+        [108, 1130],
+        [1346, 2372],
+      ],
+    },
+
+    {
+      character: characters[CharacterIndex.Rey],
+      installment: installments[InstallmentIndex.theRiseOfSkywalker],
+      chapter: theRiseOfSkywalkerChapterList[11],
+      confirmed: true,
+      coordinates: [
+        [1346, 2372],
+        [1805, 2660],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Poe],
+      installment: installments[InstallmentIndex.theRiseOfSkywalker],
+      chapter: theRiseOfSkywalkerChapterList[11],
+      confirmed: true,
+      coordinates: [
+        [1346, 2372],
+        [1805, 2660],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Finn],
+      installment: installments[InstallmentIndex.theRiseOfSkywalker],
+      chapter: theRiseOfSkywalkerChapterList[11],
+      confirmed: true,
+      coordinates: [
+        [1346, 2372],
+        [1805, 2660],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.BB8],
+      installment: installments[InstallmentIndex.theRiseOfSkywalker],
+      chapter: theRiseOfSkywalkerChapterList[11],
+      confirmed: true,
+      coordinates: [
+        [1346, 2372],
+        [1805, 2660],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Rey],
+      installment: installments[InstallmentIndex.theRiseOfSkywalker],
+      chapter: theRiseOfSkywalkerChapterList[12],
+      confirmed: true,
+      coordinates: [
+        [1805, 2660],
+        [2264, 2948],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Poe],
+      installment: installments[InstallmentIndex.theRiseOfSkywalker],
+      chapter: theRiseOfSkywalkerChapterList[12],
+      confirmed: true,
+      coordinates: [
+        [1805, 2660],
+        [2264, 2948],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Finn],
+      installment: installments[InstallmentIndex.theRiseOfSkywalker],
+      chapter: theRiseOfSkywalkerChapterList[12],
+      confirmed: true,
+      coordinates: [
+        [1805, 2660],
+        [2264, 2948],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.BB8],
+      installment: installments[InstallmentIndex.theRiseOfSkywalker],
+      chapter: theRiseOfSkywalkerChapterList[12],
+      confirmed: true,
+      coordinates: [
+        [1805, 2660],
+        [2264, 2948],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Kylo],
+      installment: installments[InstallmentIndex.theRiseOfSkywalker],
+      chapter: theRiseOfSkywalkerChapterList[13],
+      confirmed: false,
+      coordinates: [
+        [1805, 2660],
+        [2264, 2948],
+      ],
+    },
+
+    {
+      character: characters[CharacterIndex.Rey],
+      installment: installments[InstallmentIndex.theRiseOfSkywalker],
+      chapter: theRiseOfSkywalkerChapterList[16],
+      confirmed: true,
+      coordinates: [
+        [2264, 2948],
+        [851, 1251],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Poe],
+      installment: installments[InstallmentIndex.theRiseOfSkywalker],
+      chapter: theRiseOfSkywalkerChapterList[16],
+      confirmed: true,
+      coordinates: [
+        [2264, 2948],
+        [851, 1251],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Finn],
+      installment: installments[InstallmentIndex.theRiseOfSkywalker],
+      chapter: theRiseOfSkywalkerChapterList[16],
+      confirmed: true,
+      coordinates: [
+        [2264, 2948],
+        [851, 1251],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.BB8],
+      installment: installments[InstallmentIndex.theRiseOfSkywalker],
+      chapter: theRiseOfSkywalkerChapterList[16],
+      confirmed: true,
+      coordinates: [
+        [2264, 2948],
+        [851, 1251],
+      ],
+    },
+
+    {
+      character: characters[CharacterIndex.Kylo],
+      installment: installments[InstallmentIndex.theRiseOfSkywalker],
+      chapter: theRiseOfSkywalkerChapterList[17],
+      confirmed: true,
+      coordinates: [
+        [2264, 2948],
+        [851, 1251],
+      ],
+    },
+
+    {
+      character: characters[CharacterIndex.Rey],
+      installment: installments[InstallmentIndex.theRiseOfSkywalker],
+      chapter: theRiseOfSkywalkerChapterList[19],
+      confirmed: true,
+      coordinates: [
+        [851, 1251],
+        [2604, 1844],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Poe],
+      installment: installments[InstallmentIndex.theRiseOfSkywalker],
+      chapter: theRiseOfSkywalkerChapterList[19],
+      confirmed: true,
+      coordinates: [
+        [851, 1251],
+        [2604, 1844],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Finn],
+      installment: installments[InstallmentIndex.theRiseOfSkywalker],
+      chapter: theRiseOfSkywalkerChapterList[19],
+      confirmed: true,
+      coordinates: [
+        [851, 1251],
+        [2604, 1844],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.BB8],
+      installment: installments[InstallmentIndex.theRiseOfSkywalker],
+      chapter: theRiseOfSkywalkerChapterList[19],
+      confirmed: true,
+      coordinates: [
+        [851, 1251],
+        [2604, 1844],
+      ],
+    },
+
+    {
+      character: characters[CharacterIndex.Poe],
+      installment: installments[InstallmentIndex.theRiseOfSkywalker],
+      chapter: theRiseOfSkywalkerChapterList[24],
+      confirmed: true,
+      coordinates: [
+        [2604, 1844],
+        [108, 1130],
+        [2318, 948],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Finn],
+      installment: installments[InstallmentIndex.theRiseOfSkywalker],
+      chapter: theRiseOfSkywalkerChapterList[24],
+      confirmed: true,
+      coordinates: [
+        [2604, 1844],
+        [108, 1130],
+        [2318, 948],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.BB8],
+      installment: installments[InstallmentIndex.theRiseOfSkywalker],
+      chapter: theRiseOfSkywalkerChapterList[24],
+      confirmed: true,
+      coordinates: [
+        [2604, 1844],
+        [108, 1130],
+        [2318, 948],
+      ],
+    },
+
+    {
+      character: characters[CharacterIndex.Rey],
+      installment: installments[InstallmentIndex.theRiseOfSkywalker],
+      chapter: theRiseOfSkywalkerChapterList[22],
+      confirmed: true,
+      coordinates: [
+        [2604, 1844],
+        [1320, 882],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Rey],
+      installment: installments[InstallmentIndex.theRiseOfSkywalker],
+      chapter: theRiseOfSkywalkerChapterList[24],
+      confirmed: true,
+      coordinates: [
+        [1320, 882],
+        [108, 1130],
+        [2318, 948],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Kylo],
+      installment: installments[InstallmentIndex.theRiseOfSkywalker],
+      chapter: theRiseOfSkywalkerChapterList[25],
+      confirmed: true,
+      coordinates: [
+        [851, 1251],
+        [108, 1130],
+        [2318, 948],
+      ],
+    },
+
+    {
+      character: characters[CharacterIndex.Rey],
+      installment: installments[InstallmentIndex.theRiseOfSkywalker],
+      chapter: theRiseOfSkywalkerChapterList[28],
+      confirmed: true,
+      coordinates: [
+        [2318, 948],
+        [108, 1130],
+        [2604, 1844],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Poe],
+      installment: installments[InstallmentIndex.theRiseOfSkywalker],
+      chapter: theRiseOfSkywalkerChapterList[28],
+      confirmed: true,
+      coordinates: [
+        [2318, 948],
+        [108, 1130],
+        [2604, 1844],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Finn],
+      installment: installments[InstallmentIndex.theRiseOfSkywalker],
+      chapter: theRiseOfSkywalkerChapterList[28],
+      confirmed: true,
+      coordinates: [
+        [2318, 948],
+        [108, 1130],
+        [2604, 1844],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.BB8],
+      installment: installments[InstallmentIndex.theRiseOfSkywalker],
+      chapter: theRiseOfSkywalkerChapterList[28],
+      confirmed: true,
+      coordinates: [
+        [2318, 948],
+        [108, 1130],
+        [2604, 1844],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Rey],
+      installment: installments[InstallmentIndex.theRiseOfSkywalker],
+      chapter: theRiseOfSkywalkerChapterList[29],
+      confirmed: true,
+      coordinates: [
+        [2604, 1844],
+        [858, 2834],
+      ],
+    },
   ]
 };
 
