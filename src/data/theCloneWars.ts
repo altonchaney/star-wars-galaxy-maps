@@ -48,14 +48,23 @@ const attackOfTheClonesChapterList: Chapter[] = [
 
 const cloneWarsFilmChapterList: Chapter[] = [
   { altName: 'Battle on Christophsis', chapter: 0 },
+  // Christophsis
   { altName: `Anakin's New Apprentice`, chapter: 1 },
+  // Christophsis
   { altName: `The Rescue Plan`, chapter: 2 },
+  // Anakin/Ahsoka/Rex: !Christophsis, Teth
   { altName: `Obi-Wan's Assurances`, chapter: 3 },
+  // ObiWan: !Christophsis, Tatooine
   { altName: `An Elaborate Trap`, chapter: 4 },
+  // Anakin/Ahsoka/Rex: Teth
   { altName: 'Obi-Wan Arrives', chapter: 5 },
+  // ObiWan: !Tatooine, Teth
   { altName: `Padme's Revelations`, chapter: 6 },
+  // Padme: Coruscant
   { altName: `Across Tatooine`, chapter: 7 },
+  // Anakin/Ahsoka: !Teth, Tatooine
   { altName: `Crisis Averted`, chapter: 8 },
+  // ObiWan/Rex: !Teth, Tatooine | Padme: Coruscant
 ];
 
 const cloneWarsS1EpisodeList: Chapter[] = [
@@ -406,6 +415,9 @@ export const THE_CLONE_WARS_DATA: DataBundle = {
         [InstallmentIndex.attackOfTheClones + 1]: [
           9, 11
         ].map(i => (attackOfTheClonesChapterList[i])),
+        [InstallmentIndex.cloneWarsFilm + 1]: [
+          3, 5, 7, 8
+        ].map(i => (cloneWarsFilmChapterList[i])),
         [InstallmentIndex.revengeOfTheSith + 1]: [
           18
         ].map(i => (revengeOfTheSithChapterList[i])),
@@ -426,6 +438,9 @@ export const THE_CLONE_WARS_DATA: DataBundle = {
         [InstallmentIndex.attackOfTheClones + 1]: [
           0, 1, 2, 4, 16, 17
         ].map(i => (attackOfTheClonesChapterList[i])),
+        [InstallmentIndex.cloneWarsFilm + 1]: [
+          6, 8
+        ].map(i => (cloneWarsFilmChapterList[i])),
         [InstallmentIndex.revengeOfTheSith + 1]: [
           0, 1, 3, 4, 7, 9, 10, 11, 13, 14, 17
         ].map(i => (revengeOfTheSithChapterList[i])),
@@ -586,6 +601,34 @@ export const THE_CLONE_WARS_DATA: DataBundle = {
       },
       description: `Felucia, known as Galush prior to the formation of the Galactic Republic, was a colorful, humid jungle planet located in the Felucia system of the galaxy's Outer Rim Territories. The headquarters of the Commerce Guild, its primary agricultural export was the valuable crop nysillin, which was largely farmed by the native Felucian tribes. Its important strategic location along the Perlemian Trade Route made it a major battleground throughout the Clone Wars.`,
       wikiLink: 'https://starwars.fandom.com/wiki/Felucia',
+      confirmed: true
+    },
+    {
+      title: 'Christophsis',
+      coordinates: [847, 2751],
+      type: 'planet',
+      image: 'https://static.wikia.nocookie.net/starwars/images/6/66/Coruscant_landscape_RotS.png',
+      appearances: {
+        [InstallmentIndex.cloneWarsFilm + 1]: [
+          0, 1
+        ].map(i => (cloneWarsFilmChapterList[i])),
+      },
+      description: `Coruscant, also known as Imperial Center during the rule of the Galactic Empire, was an ecumenopolis—a city-covered planet, collectively known as Imperial City— in the Coruscant system of the Core Worlds. Though debated by historians, it was generally believed that Coruscant was the original homeworld of humanity. `,
+      wikiLink: 'https://starwars.fandom.com/wiki/Christophsis',
+      confirmed: true
+    },
+    {
+      title: 'Teth',
+      coordinates: [1616, 3289.5],
+      type: 'planet',
+      image: 'https://static.wikia.nocookie.net/starwars/images/6/66/Coruscant_landscape_RotS.png',
+      appearances: {
+        [InstallmentIndex.cloneWarsFilm + 1]: [
+          2, 4, 5
+        ].map(i => (cloneWarsFilmChapterList[i])),
+      },
+      description: `Coruscant, also known as Imperial Center during the rule of the Galactic Empire, was an ecumenopolis—a city-covered planet, collectively known as Imperial City— in the Coruscant system of the Core Worlds. Though debated by historians, it was generally believed that Coruscant was the original homeworld of humanity. `,
+      wikiLink: 'https://starwars.fandom.com/wiki/Teth',
       confirmed: true
     },
   ],
@@ -841,6 +884,77 @@ export const THE_CLONE_WARS_DATA: DataBundle = {
       coordinates: [
         [842.5, 2821.5],
         [807, 2346]
+      ],
+    },
+    // the clone wars film
+    {
+      character: characters[CharacterIndex.Anakin],
+      installment: installments[InstallmentIndex.cloneWarsFilm],
+      chapter: cloneWarsFilmChapterList[2],
+      confirmed: true,
+      coordinates: [
+        [847, 2751],
+        [1616, 3289.5],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Ahsoka],
+      installment: installments[InstallmentIndex.cloneWarsFilm],
+      chapter: cloneWarsFilmChapterList[2],
+      confirmed: true,
+      coordinates: [
+        [847, 2751],
+        [1616, 3289.5],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.ObiWan],
+      installment: installments[InstallmentIndex.cloneWarsFilm],
+      chapter: cloneWarsFilmChapterList[3],
+      confirmed: true,
+      coordinates: [
+        [847, 2751],
+        [858, 2834],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.ObiWan],
+      installment: installments[InstallmentIndex.cloneWarsFilm],
+      chapter: cloneWarsFilmChapterList[5],
+      confirmed: true,
+      coordinates: [
+        [858, 2834],
+        [847, 2751],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Anakin],
+      installment: installments[InstallmentIndex.cloneWarsFilm],
+      chapter: cloneWarsFilmChapterList[7],
+      confirmed: true,
+      coordinates: [
+        [847, 2751],
+        [858, 2834],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.Ahsoka],
+      installment: installments[InstallmentIndex.cloneWarsFilm],
+      chapter: cloneWarsFilmChapterList[7],
+      confirmed: true,
+      coordinates: [
+        [847, 2751],
+        [858, 2834],
+      ],
+    },
+    {
+      character: characters[CharacterIndex.ObiWan],
+      installment: installments[InstallmentIndex.cloneWarsFilm],
+      chapter: cloneWarsFilmChapterList[8],
+      confirmed: true,
+      coordinates: [
+        [847, 2751],
+        [858, 2834],
       ],
     },
     // revenge of the sith

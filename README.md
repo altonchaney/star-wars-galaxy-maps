@@ -60,16 +60,29 @@ If you run into any issues that you cannot resolve please open a GitHub issue an
 **The Clone Wars**
 - [x] Episode I: The Phantom Menace
 - [x] Episode II: Attack of the Clones
-- [ ] The Clone Wars
+- [x] The Clone Wars Film
+- [ ] The Clone Wars S1
+- [ ] The Clone Wars S2
+- [ ] The Clone Wars S3
+- [ ] The Clone Wars S4
+- [ ] The Clone Wars S5
+- [ ] The Clone Wars S6
+- [ ] The Clone Wars S7
 - [x] Episode III: Revenge of the Sith
 
-**Imperial Era**
-- [ ] The Bad Batch
+**The Imperial Era**
+- [x] The Bad Batch S1
 - [ ] Jedi: Fallen Order
+- [ ] Jedi: Survivor
 - [ ] Solo
-- [ ] Obi-Wan Kenobi
-- [ ] Rebels
-- [ ] Andor
+- [ ] Obi-Wan Kenobi S1
+
+**Rise of the Rebels**
+- [ ] Rebels S1
+- [ ] Rebels S2
+- [ ] Rebels S3
+- [ ] Rebels S4
+- [ ] Andor S1
 - [ ] Rogue One
 
 **The Rebellion**
@@ -77,17 +90,22 @@ If you run into any issues that you cannot resolve please open a GitHub issue an
 - [x] Episode V: The Empire Strikes Back
 - [x] Episode VI: Return of the Jedi
 
-**The New Republic**
+**Fall of the Empire**
 - [ ] Battlefront II
 - [ ] Aftermath
 - [ ] Aftermath: Life Debt
 - [ ] Aftermath: Empire's End
 - [ ] Squadrons
-- [ ] The Mandalorian
-- [ ] Boba Fett
-- [ ] Resistance
+
+**The New Republic**
+- [ ] The Mandalorian S1
+- [ ] The Mandalorian S2
+- [ ] The Mandalorian S3
+- [ ] Boba Fett S1
+- [ ] Resistance S1
+- [ ] Resistance S2
 
 **The First Order**
-- [ ] Episode VII: The Force Awakens
-- [ ] Episode VIII: The Last Jedi
-- [ ] Episode IX: The Rise of Skywalker
+- [x] Episode VII: The Force Awakens
+- [x] Episode VIII: The Last Jedi
+- [x] Episode IX: The Rise of Skywalker
