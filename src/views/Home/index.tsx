@@ -21,7 +21,7 @@ const Home = () => {
         }
       </div>
       <footer>
-        <a href='https://github.com/altonchaney/cosmere-maps/issues' target='_blank' rel='noreferrer noopener'>
+        <a href='https://github.com/altonchaney/star-wars-galaxy-maps/issues' target='_blank' rel='noreferrer noopener'>
           <p className='alt'>
             Having issues? Submit them here.
           </p>
